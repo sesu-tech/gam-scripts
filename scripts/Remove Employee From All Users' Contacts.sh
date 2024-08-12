@@ -14,11 +14,11 @@ read email
 read -r -p  "You entered "$email", are you sure you'd like to continue? [y/N]" -n 1
 echo
 case "$REPLY" in
-        y|Y ) echo "Continuing...";;
-        * ) echo "Exiting..."; exit;;
+        y|Y ) echo "Continuing.";;
+        * ) echo "Exiting."; exit;;
 esac
 
-# Remove Contact From All Users
+# Remove Contact
 echo "Removing Employee from All User 'Contacts'"
 $gam all users delete contacts emailmatchpattern "$email"
 
