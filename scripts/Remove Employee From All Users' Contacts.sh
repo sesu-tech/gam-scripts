@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Remove Employee From All Users' Contacts
-# Created by: Sesu Tech
+# Created by: Sesu Tech <github.com/sesu-tech>
 # Created on: 2024.08.12
 # Modified on: 2024.08.12
 
