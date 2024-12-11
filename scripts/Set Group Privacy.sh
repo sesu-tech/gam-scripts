@@ -27,7 +27,7 @@ case "$REPLY" in
 esac
 
 # Prompt For Group Directory Setting
-read -r -p  "Would you like the group to show up in the Google Groups directory (groups.google.com)? [y/n]" -n 1
+read -r -p  "Would you like the group to show up in the Google Groups directory (groups.google.com/all-groups)? [y/n]" -n 1
 echo
 case "$REPLY" in
         y|Y ) echo "Setting group directory visibility to TRUE..." && $gam update group $group show_in_group_directory true;;
